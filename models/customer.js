@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
 const Joi = require("joi");
+const mongoose = require("mongoose");
 
 const Customer = mongoose.model(
   "Customer",
@@ -22,6 +22,7 @@ const Customer = mongoose.model(
     },
   })
 );
+
 function validateCustomer(customer) {
   const schema = {
     name: Joi.string().min(5).max(50).required(),
@@ -31,5 +32,6 @@ function validateCustomer(customer) {
 
   return Joi.validate(customer, schema);
 }
+
 exports.Customer = Customer;
-exports.validateCustomer = validateCustomer;
+exports.validate = validateCustomer;
