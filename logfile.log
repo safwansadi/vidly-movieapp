@@ -5,3 +5,9 @@
 {"level":"info","message":"connected to MongoDB....","timestamp":"2021-07-31T19:27:44.831Z"}
 {"level":"info","message":"connected to MongoDB....","timestamp":"2021-07-31T19:29:27.056Z"}
 {"level":"info","message":"connected to MongoDB....","timestamp":"2021-07-31T19:29:53.987Z"}
+{"level":"info","message":"Listening on port undefined...","timestamp":"2021-08-02T15:43:15.673Z"}
+{"level":"info","message":"connected to MongoDB....","timestamp":"2021-08-02T15:43:15.700Z"}
+{"level":"info","message":"Listening on port undefined...","timestamp":"2021-08-02T15:47:47.243Z"}
+{"level":"info","message":"connected to MongoDB....","timestamp":"2021-08-02T15:47:47.265Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2021-08-02T15:50:58.168Z"}
+{"level":"info","message":"connected to MongoDB....","timestamp":"2021-08-02T15:50:58.188Z"}
