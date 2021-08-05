@@ -8,7 +8,10 @@
     "testURL": "http://localhost/"
   },
   "scripts": {
-    "test": "jest --watchAll --verbose"
+    "test": "jest --watchAll --verbose --coverage",
+    "start": "set NODE_ENV=development&& nodemon index.js",
+    "start-prod": "set NODE_ENV=production&& nodemon index.js",
+    "start-test": "set NODE_ENV=test&& nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -24,11 +27,11 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
     "mongoose": "^5.12.4",
-    "nodemon": "^2.0.12",
     "winston": "^2.4.0",
     "winston-mongodb": "^3.0.0"
   },
   "devDependencies": {
-    "jest": "^22.2.2"
+    "jest": "^22.2.2",
+    "supertest": "^3.0.0"
   }
 }

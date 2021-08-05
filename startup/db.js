@@ -10,5 +10,5 @@ module.exports = function () {
       useCreateIndex: true,
       useUnifiedTopology: true,
     })
-    .then(() => winston.info("connected to MongoDB...."));
+    .then(() => winston.info(`connected to ${db}`));
 };
