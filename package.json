@@ -9,19 +9,23 @@
   },
   "scripts": {
     "test": "jest --watchAll --verbose",
-    "start": "set NODE_ENV=development&& nodemon index.js",
+    "start": "node index.js",
     "start-prod": "set NODE_ENV=production&& nodemon index.js",
     "start-test": "set NODE_ENV=test&& nodemon index.js"
+  },"engines": {
+    "node": "14.16.0"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "compression": "^1.7.2",
     "config": "^1.29.4",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "fawn": "^2.1.5",
+    "helmet": "^3.11.0",
     "joi": "^13.1.0",
     "joi-objectid": "^3.0.1",
     "jsonwebtoken": "^8.5.1",
